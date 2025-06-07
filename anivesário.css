@@ -1,0 +1,110 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+img {
+    border: 5px solid var(--cor-borda);
+}
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c2c0c0;
+  }
+  .wrapper{
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  main{
+    display: block;
+    background-color: rgb(202, 214, 224);
+  }
+  
+  .conteiner {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  h2 {
+    text-align: center;
+  }
+.con {
+    background-color: rgb(189, 199, 207);
+    padding: 20px
+}
+
+/* Título */
+.título {
+    font-weight: bold;
+    text-align: center;
+}
+/* Cabeçalho */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #222222;
+    padding: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #f3e5ab;
+  }
+
+/* Efeitos de Imagem */
+  section.module.content{
+    padding: 40px 0;
+    background: #ece7d5;
+  }
+  section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+  section.module.parallax-1{
+    background-image: url(.//img/Brasília1.jpeg);
+  }
+
+/* Rodapé */
+  .rodape {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  
+  .conteudo-rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .rodape p{
+    font-size: 18px;
+  }
